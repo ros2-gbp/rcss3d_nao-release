@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rcss3d_nao</name>
-  <version>0.1.1</version>
+  <version>1.0.0</version>
   <description>An interface to SimSpark that uses interfaces used by a Nao robot</description>
   <maintainer email="kenjibrameld@gmail.com">ijnek</maintainer>
   <license>Apache License 2.0</license>
@@ -15,8 +15,8 @@
 
   <depend>rcss3d_agent</depend>
   <depend>rcss3d_agent_msgs_to_soccer_interfaces</depend>
-  <depend>nao_command_msgs</depend>
-  <depend>nao_sensor_msgs</depend>
+  <depend>nao_lola_command_msgs</depend>
+  <depend>nao_lola_sensor_msgs</depend>
   <depend>rclcpp_components</depend>
   <depend>soccer_vision_3d_msgs</depend>
   <depend>geometry_msgs</depend>
