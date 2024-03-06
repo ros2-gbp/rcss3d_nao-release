@@ -1,0 +1,29 @@
+ros-rolling-rcss3d-nao (1.1.0-2noble) noble; urgency=high
+
+  * Add x,y,theta parameters to easily set initial position of robot
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 02 Sep 2023 00:00:00 -0000
+
+ros-rolling-rcss3d-nao (1.0.0-2noble) noble; urgency=high
+
+  * Migrate to nao_lola_sensor_msgs and nao_lola_command_msgs (#20 <https://github.com/ros-sports/rcss3d_nao/issues/20>)
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Aug 2023 00:00:00 -0000
+
+ros-rolling-rcss3d-nao (0.1.1-2noble) noble; urgency=high
+
+  * Remove source build of rcss3d_agent
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 21 Jul 2022 00:00:00 -0000
+
+ros-rolling-rcss3d-nao (0.1.0-2noble) noble; urgency=high
+
+  * Implemented basic functionality
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 30 Jun 2022 00:00:00 -0000
+
+
