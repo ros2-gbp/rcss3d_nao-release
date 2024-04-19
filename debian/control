@@ -1,0 +1,12 @@
+Source: ros-jazzy-rcss3d-nao
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-nao-lola-command-msgs, ros-jazzy-nao-lola-sensor-msgs, ros-jazzy-rclcpp-components, ros-jazzy-rcss3d-agent, ros-jazzy-rcss3d-agent-msgs-to-soccer-interfaces, ros-jazzy-sensor-msgs, ros-jazzy-soccer-vision-3d-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rcss3d-nao
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-nao-lola-command-msgs, ros-jazzy-nao-lola-sensor-msgs, ros-jazzy-rclcpp-components, ros-jazzy-rcss3d-agent, ros-jazzy-rcss3d-agent-msgs-to-soccer-interfaces, ros-jazzy-sensor-msgs, ros-jazzy-soccer-vision-3d-msgs, ros-jazzy-ros-workspace
+Description: An interface to SimSpark that uses interfaces used by a Nao robot
