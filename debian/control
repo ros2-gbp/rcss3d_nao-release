@@ -1,0 +1,12 @@
+Source: ros-kilted-rcss3d-nao
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-nao-lola-command-msgs, ros-kilted-nao-lola-sensor-msgs, ros-kilted-rclcpp-components, ros-kilted-rcss3d-agent, ros-kilted-rcss3d-agent-msgs-to-soccer-interfaces, ros-kilted-sensor-msgs, ros-kilted-soccer-vision-3d-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rcss3d-nao
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry-msgs, ros-kilted-nao-lola-command-msgs, ros-kilted-nao-lola-sensor-msgs, ros-kilted-rclcpp-components, ros-kilted-rcss3d-agent, ros-kilted-rcss3d-agent-msgs-to-soccer-interfaces, ros-kilted-sensor-msgs, ros-kilted-soccer-vision-3d-msgs, ros-kilted-ros-workspace
+Description: An interface to SimSpark that uses interfaces used by a Nao robot
