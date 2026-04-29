@@ -1,0 +1,12 @@
+Source: ros-lyrical-rcss3d-nao
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-nao-lola-command-msgs, ros-lyrical-nao-lola-sensor-msgs, ros-lyrical-rclcpp-components, ros-lyrical-rcss3d-agent, ros-lyrical-rcss3d-agent-msgs-to-soccer-interfaces, ros-lyrical-sensor-msgs, ros-lyrical-soccer-vision-3d-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rcss3d_nao/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rcss3d-nao
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-nao-lola-command-msgs, ros-lyrical-nao-lola-sensor-msgs, ros-lyrical-rclcpp-components, ros-lyrical-rcss3d-agent, ros-lyrical-rcss3d-agent-msgs-to-soccer-interfaces, ros-lyrical-sensor-msgs, ros-lyrical-soccer-vision-3d-msgs, ros-lyrical-ros-workspace
+Description: An interface to SimSpark that uses interfaces used by a Nao robot
